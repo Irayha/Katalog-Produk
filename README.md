@@ -1,4 +1,15 @@
-# Katalog Produk UPI Store
+# Tampilan
+
+<p align="center">
+  <img src="assets/Cuplikan layar 2026-11-19 180239.png" alt="Preview Aplikasi " width="350"/>
+  
+
+</p>
+
+---
+
+
+# Katalog Produk 
 
 Aplikasi desktop sederhana berbasis **JavaFX** untuk mengelola katalog produk. Data disimpan di database **SQLite** lokal dan ditampilkan sebagai kartu produk (foto, nama, harga, ID).
 
