@@ -77,17 +77,3 @@ Bisa juga dibuka lewat IDE (NetBeans, IntelliJ IDEA, atau VS Code) sebagai proye
 2. **Edit produk**: klik **Edit** pada kartu produk, ubah datanya di form, lalu klik **Perbarui**. Klik **Batal** untuk membatalkan.
 3. **Hapus produk**: klik **Hapus** pada kartu produk, lalu konfirmasi dengan **OK**.
 
-## Menambah Pilihan Foto
-
-1. Taruh file gambar (misalnya `teh.png`) di `src/main/resources/image/`.
-2. Daftarkan nama file di method `initialize()` pada `KatalogController.java`:
-
-   ```java
-   fotoBox.getItems().add("teh.png");
-   ```
-
-## Catatan
-
-- Foto hanya bisa dipilih dari gambar yang tersedia di folder `resources/image`.
-- Jika gambar tidak ditemukan atau gagal dibaca, kartu menampilkan teks pengganti.
-- Pesan kesalahan teknis (misalnya kegagalan SQL) dicetak ke konsol/Output.
